@@ -1,0 +1,144 @@
+{
+    "homepage": {
+        "title": "Welcome to the Astronomy Learning Platform",
+        "navigation": [
+            { "label": "Dashboard", "link": "/dashboard" },
+            { "label": "Start Learning", "link": "/learn" }
+        ]
+    },
+    "dashboard": {
+        "title": "Learner Dashboard",
+        "progress": "Your current progress will be shown here.",
+        "sessions": [
+            { "label": "Session 1: Solar System", "link": "/learn/session1" },
+            { "label": "Session 2: Stars and Constellations", "link": "/learn/session2" }
+        ]
+    },
+    "courseContent": {
+        "treeData": {
+            "label": "Cours d'Astronomie",
+            "children": [
+                {
+                    "label": "Système Solaire",
+                    "children": [
+                        {
+                            "label": "Planètes",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Combien y a-t-il de planètes dans notre système solaire ?", "a": "8", "type": "input" },
+                                { "q": "Quelle est la plus grande planète de notre système solaire ?", "a": "Jupiter", "type": "input" },
+                                { "q": "Quelle planète est connue sous le nom de planète rouge ?", "a": "Mars", "type": "input" }
+                            ]
+                        },
+                        {
+                            "label": "Lunes",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Quelle planète a le plus de lunes connues ?", "a": "Saturne", "type": "input" },
+                                { "q": "Quel est le nom de la lune de la Terre ?", "a": "Lune", "type": "input" },
+                                { "q": "Quelle lune de Jupiter est connue pour son océan sous la surface ?", "a": "Europe", "type": "input" }
+                            ]
+                        },
+                        {
+                            "label": "Astéroïdes et Comètes",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Quelle est la principale différence entre les astéroïdes et les comètes ?", "a": "Les astéroïdes sont rocheux, les comètes sont glacées", "type": "input" },
+                                { "q": "Dans quelle région entre Mars et Jupiter se trouvent la plupart des astéroïdes ?", "a": "Ceinture d'astéroïdes", "type": "input" },
+                                { "q": "Quel est le nom du nuage de comètes à la limite de notre système solaire ?", "a": "Nuage d'Oort", "type": "input" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "Étoiles et Constellations",
+                    "children": [
+                        {
+                            "label": "Formation des Étoiles",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Quel est l'élément principal qui alimente les étoiles ?", "a": "Hydrogène", "type": "input" },
+                                { "q": "Quelle force provoque l'effondrement d'une nébuleuse pour former des étoiles ?", "a": "Gravité", "type": "input" },
+                                { "q": "Quel est le nom du nuage de gaz et de poussière où naissent les étoiles ?", "a": "Nébuleuse", "type": "input" }
+                            ]
+                        },
+                        {
+                            "label": "Types d'Étoiles",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "De quelle couleur sont les étoiles les plus chaudes ?", "a": "Bleue", "type": "input" },
+                                { "q": "Quel est le nom d'une étoile dans sa dernière phase évolutive ?", "a": "Naine blanche", "type": "input" },
+                                { "q": "Quel type d'étoile est notre Soleil ?", "a": "Naine jaune", "type": "input" }
+                            ]
+                        },
+                        {
+                            "label": "Constellations",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Combien y a-t-il de constellations du zodiaque ?", "a": "12", "type": "input" },
+                                { "q": "Quelle constellation est également connue sous le nom de Grande Ourse ?", "a": "Ursa Major", "type": "input" },
+                                { "q": "Quelle constellation contient l'étoile Polaire ?", "a": "Ursa Minor", "type": "input" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "Galaxies",
+                    "children": [
+                        {
+                            "label": "La Voie Lactée",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Quel type de galaxie est la Voie lactée ?", "a": "Spirale", "type": "input" },
+                                { "q": "Environ combien d'étoiles y a-t-il dans la Voie lactée ?", "a": "100-400 milliards", "type": "input" },
+                                { "q": "Qu'y a-t-il au centre de notre galaxie ?", "a": "Trou noir supermassif", "type": "input" }
+                            ]
+                        },
+                        {
+                            "label": "Types de Galaxies",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Nommez les trois principaux types de galaxies.", "a": "Spirale, elliptique, irrégulière", "type": "input" },
+                                { "q": "Quel type de galaxie a la structure la moins définie ?", "a": "Irrégulière", "type": "input" },
+                                { "q": "Quel type de galaxie est caractérisé par sa forme arrondie ?", "a": "Elliptique", "type": "input" }
+                            ]
+                        },
+                        {
+                            "label": "Amas de Galaxies",
+                            "quiz": true,
+                            "questions": [
+                                { "q": "Quel est le nom de l'amas de galaxies auquel appartient la Voie lactée ?", "a": "Groupe local", "type": "input" },
+                                { "q": "Environ combien de galaxies y a-t-il dans l'amas de la Vierge ?", "a": "1500", "type": "input" },
+                                { "q": "Qu'est-ce qui maintient les amas de galaxies ensemble ?", "a": "Gravité", "type": "input" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "Trous Noirs",
+                    "quiz": true,
+                    "questions": [
+                        { "q": "Comment appelle-t-on la « frontière de non-retour » autour d'un trou noir ?", "a": "Horizon des événements", "type": "input" },
+                        { "q": "Quel type de trou noir se trouve au centre de la plupart des galaxies ?", "a": "Supermassif", "type": "input" },
+                        { "q": "Quel est le nom donné au disque de matière tourbillonnant autour d'un trou noir ?", "a": "Disque d'accrétion", "type": "input" }
+                    ]
+                },
+                {
+                    "label": "La Théorie du Big Bang",
+                    "quiz": true,
+                    "questions": [
+                        { "q": "Quel âge a l'univers selon la théorie du Big Bang ?", "a": "13,8 milliards d'années", "type": "input" },
+                        { "q": "Quel type de rayonnement, vestige du Big Bang, remplit l'univers ?", "a": "Fond diffus cosmologique", "type": "input" },
+                        { "q": "Quelle théorie décrit l'expansion rapide de l'univers primitif ?", "a": "Inflation", "type": "input" }
+                    ]
+                }
+            ]
+        },
+        "performanceEmojis": ["😐", "🙂", "😊", "😄", "😁", "🥳"],
+        "difficultyLevels": [
+            { "name": "Découvreur", "emoji": "🔭", "colors": ["rgb(224,224,224)", "rgb(206,220,226)", "rgb(188,217,228)", "rgb(171,213,231)", "rgb(153,210,233)", "rgb(135,206,235)"] },
+            { "name": "Explorateur", "emoji": "🚀", "colors": ["rgb(255,255,224)", "rgb(255,232,179)", "rgb(255,209,134)", "rgb(255,186,90)", "rgb(255,163,45)", "rgb(255,140,0)"] },
+            { "name": "Vainqueur", "emoji": "🌌", "colors": ["rgb(224,224,224)", "rgb(186,207,186)", "rgb(148,190,148)", "rgb(110,173,110)", "rgb(72,156,72)", "rgb(34,139,34)"] }
+        ]
+    }
+}
